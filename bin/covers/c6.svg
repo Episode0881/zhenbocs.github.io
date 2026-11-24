@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="米白底色上局部细网格与一个橙色细线方框">
+  <defs>
+    <filter id="s6" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="64"/>
+    </filter>
+    <radialGradient id="w6" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="750" fill="#F1EEE3"/>
+  <ellipse cx="960" cy="110" rx="540" ry="330" fill="url(#w6)"/>
+  <ellipse cx="180" cy="740" rx="500" ry="320" transform="rotate(-22 180 740)" fill="#C8C1AE" opacity="0.6" filter="url(#s6)"/>
+  <ellipse cx="620" cy="380" rx="320" ry="280" fill="#FFFFFF" opacity="0.5" filter="url(#s6)"/>
+  <g stroke="#2E5D92" stroke-width="1" stroke-opacity="0.18">
+    <path d="M240 150V620M480 150V620M720 150V620M960 150V620"/>
+    <path d="M120 200H1080M120 380H1080M120 560H1080"/>
+  </g>
+  <rect x="500" y="270" width="200" height="200" fill="#FFFFFF" fill-opacity="0.45"/>
+  <rect x="500" y="270" width="200" height="200" fill="none" stroke="#FD6F02" stroke-width="2.2"/>
+  <circle cx="700" cy="270" r="5" fill="#FD6F02"/>
+</svg>
