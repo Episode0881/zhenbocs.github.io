@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="米白底色上的细线圆与一小段橙色弧">
+  <defs>
+    <filter id="s2" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="70"/>
+    </filter>
+    <radialGradient id="w2" cx="34%" cy="20%" r="72%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="750" fill="#F1EEE3"/>
+  <ellipse cx="330" cy="110" rx="520" ry="340" fill="url(#w2)"/>
+  <ellipse cx="1080" cy="740" rx="520" ry="340" transform="rotate(-24 1080 740)" fill="#C8C1AE" opacity="0.6" filter="url(#s2)"/>
+  <ellipse cx="648" cy="366" rx="300" ry="290" fill="#2E5D92" opacity="0.14" filter="url(#s2)"/>
+  <circle cx="648" cy="366" r="212" fill="none" stroke="#1F456F" stroke-opacity="0.32" stroke-width="1.2"/>
+  <circle cx="648" cy="366" r="212" fill="none" stroke="#FD6F02" stroke-width="3" stroke-linecap="round"
+          stroke-dasharray="168 1164" transform="rotate(-142 648 366)"/>
+  <g stroke="#2E5D92" stroke-width="1" stroke-opacity="0.2">
+    <path d="M104 214H300"/>
+    <path d="M104 248H246"/>
+  </g>
+  <circle cx="648" cy="154" r="5" fill="#2E5D92" opacity="0.5"/>
+</svg>

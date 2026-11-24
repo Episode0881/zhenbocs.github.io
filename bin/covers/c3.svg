@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="深墨底色上右对齐的细线账行，其中一行是橙色">
+  <defs>
+    <filter id="s3" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="66"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="750" fill="#0C1116"/>
+  <ellipse cx="290" cy="100" rx="480" ry="320" transform="rotate(-26 290 100)" fill="#1B3E61" opacity="0.6" filter="url(#s3)"/>
+  <ellipse cx="1020" cy="730" rx="460" ry="300" transform="rotate(-26 1020 730)" fill="#04070A" opacity="0.65" filter="url(#s3)"/>
+  <g stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.18">
+    <path d="M640 182H1090"/>
+    <path d="M720 226H1090"/>
+    <path d="M610 270H1090"/>
+    <path d="M690 358H1090"/>
+    <path d="M744 402H1090"/>
+    <path d="M660 446H1090"/>
+  </g>
+  <rect x="820" y="313" width="270" height="2" fill="#FD6F02"/>
+  <circle cx="1090" cy="402" r="5" fill="#FD6F02"/>
+</svg>
